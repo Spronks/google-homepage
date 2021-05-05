@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.navbar {
+    height: 5vh;
+}
+ul {
+    list-style: none;
+    overflow: hidden;
+    
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    background: white;
+    
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+
+input[type="text"]{
+    width: 50em;
+    height: 4em;
+    border-radius: 50px;
+    margin-top: 1.5em;  
+   
+}
+
+input[type="text"]:hover {
+    box-shadow: 0.8em 0.2em 0.8em 0.2em whitesmoke;  
+}
+
+input[type="submit"] {
+    background: rgb(207, 204, 204, 0.1);
+    border: none;
+    font-size: 1em;
+    padding:0.5em;
+    margin: 0.5em 0.2em;
+}
+
+input[type="submit"]:hover {
+   
+    background: rgb(207, 204, 204, 0.1);
+    border: 1px solid  rgb(207, 204, 204, 0.5); 
+    padding: 0.5em;
+    border-radius: 0.3em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.logo_form {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    
+}
+
+.logo_form p {
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+.footer {
+    height: 10vh;
+}
+
+
+.footer1 {
+    background:  rgb(207, 204, 204, 0.5);
+    padding: 1em;
+    border-bottom: 0.2em solid rgb(207, 204, 204, 0.9);
+    
+}
+.footer2 {
+    background: rgb(207, 204, 204, 0.5);
+}
+
+.footer2 ul {
+    list-style: none;
+  
+        
+    }
+.footer2  li {
+        float: left;
+        
+        
+    }
+    
+.footer2 li a {
+       
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: black;
+        background: rgb(207, 204, 204, 0.1);
+           
+        
+    }
+    
+.footer2    li a:hover {
+        text-decoration: underline;
+}
+
